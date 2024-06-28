@@ -594,7 +594,8 @@ a:nth-child(1) {
     font-weight: 500;
     letter-spacing: -.6px;
 }
-.popup-header p{
+
+.popup-header p {
     font-size: 14px;
     font-weight: 300;
 }
@@ -612,7 +613,7 @@ form select {
 .phone-input {
     display: flex;
     gap: 0px;
-    
+
 }
 
 .phone-input select {
@@ -643,7 +644,7 @@ form button {
 .terms {
     margin-top: 10px;
     font-size: 14px;
-    color:#002863;
+    color: #002863;
     font-family: "DM Sans";
     text-align: left;
 
@@ -665,7 +666,8 @@ form button {
 .security img {
     margin: 0 5px;
     width: 96px;
-height: auto;}
+    height: auto;
+}
 
 @media (max-width: 320px) {
     .logo {
@@ -882,7 +884,8 @@ height: auto;}
     }
 
 }
-@media (min-width: 321px) and (max-width: 500px){
+
+@media (min-width: 321px) and (max-width: 500px) {
     .logo {
         width: 100px;
         margin-left: 10px;
@@ -1097,11 +1100,12 @@ height: auto;}
     }
 
 }
-@media (min-width: 500px) and (max-width: 800px){
+
+@media (min-width: 500px) and (max-width: 800px) {
     .link-btn-container {
         width: 60%;
     }
-    
+
     .text-box {
         margin-top: 50px;
     }
@@ -1160,7 +1164,7 @@ height: auto;}
     }
 
     .icon-2 {
-       display: none;
+        display: none;
     }
 
     .stats-cont {
@@ -1254,6 +1258,34 @@ height: auto;}
         font-size: 20px;
         font-weight: 500;
         margin-bottom: 15px;
-    } 
+    }
+
+}
+
+@media (min-width: 800px) and (max-width: 1024px) {
+    .link-btn-container {
+        width: 50%;
+    }
+
+    .bnr-2-text {
+        margin-right: 100px;
+        line-height: 25px;
+        letter-spacing: -.8px;
+        width: fit-content;
+        position: relative;
+        bottom: 10px;
+    }
+
+    .bnr-2-text br {
+        display: none;
+    }
+
+    .bnr-2-btn {
+        font-size: 20px;
+        width: 50%;
+        line-height: 26px;
+        letter-spacing: -.8px;
+        border: none;
+    }
 
 }
