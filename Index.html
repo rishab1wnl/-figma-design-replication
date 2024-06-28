@@ -18,32 +18,41 @@
             <a href="#">Programs</a>
             <a href="#">Success Story</a>
             <a href="#">About</a>
-            <button class="demo-btn" onclick="showPopup()">Book a Free Demo</button>
+            <button class="demo-btn" id="open-popup">Book a Free Demo</button>
         </div>
     </nav>
 
-     <!-- Popup form container -->
-     <!-- <div id="popupForm" class="popup">
+    <div class="popup" id="popup">
         <div class="popup-content">
-            <span class="close" onclick="closePopup()">&times;</span>
-            <h2>Book a Free Demo</h2>
-            <div class="form-group">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name">
+            <button class="close-btn" id="close-popup">&times;</button>
+            <div class="popup-header">
+                <h2>Book Demo Session</h2>
+                <p>Only 4 Spots Left!</p>
             </div>
-            <div class="form-group">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email">
-            </div>
-            <div class="form-group">
-                <label for="message">Message:</label>
-                <textarea id="message" name="message"></textarea>
-            </div>
-            <div class="form-group">
-                <button type="button" onclick="submitForm()">Submit</button>
+            <form>
+                <input type="text" placeholder="Rahul Sharma" required>
+                <input type="email" placeholder="Email Id" required>
+                <div class="phone-input">
+                    <select>
+                        <option value="+91">+91</option>
+                    </select>
+                    <input type="tel" placeholder="Enter mobile number" required>
+                </div>
+                <select required>
+                    <option value="">Select Baby Stage</option>
+                </select>
+                <button type="submit">Apply Now</button>
+            </form>
+            <p class="terms">
+                UpTodd's <a href="#">Terms & Conditions</a> and <a href="#">Privacy Policy</a> for <br>complete data
+                security
+            </p>
+            <div class="security">
+                <img src="Assets/avast.png" alt="Avast">
+                <img src="Assets/https.png" alt="HTTPS">
             </div>
         </div>
-    </div> -->
+    </div>
 
 
     <div class="banner">
@@ -332,7 +341,8 @@
 
         <div class="s4-img-cont">
             <img src="Assets/image 44.png" alt="">
-            <svg class="s4-scroll" width="102" height="14" viewBox="0 0 102 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg class="s4-scroll" width="102" height="14" viewBox="0 0 102 14" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
                 <circle cx="7" cy="7" r="6.5" fill="#002863" stroke="#002863" />
                 <circle cx="29" cy="7" r="6.5" stroke="#002863" />
                 <circle cx="51" cy="7" r="6.5" stroke="#002863" />
@@ -361,29 +371,19 @@
             iframe.style.display = "block";
         }
 
+        document.getElementById('open-popup').addEventListener('click', function () {
+            document.getElementById('popup').style.display = 'flex';
+        });
 
-               // JavaScript to handle the popup form
-               function showPopup() {
-            document.getElementById('popupForm').style.display = 'block';
-        }
+        document.getElementById('close-popup').addEventListener('click', function () {
+            document.getElementById('popup').style.display = 'none';
+        });
 
-        function closePopup() {
-            document.getElementById('popupForm').style.display = 'none';
-        }
-
-        function submitForm() {
-            // Here you can add form submission code
-            alert('Form submitted!');
-            closePopup();
-        }
-
-        // Close the popup when clicking outside the form
-        window.onclick = function(event) {
-            const popup = document.getElementById('popupForm');
-            if (event.target === popup) {
-                popup.style.display = 'none';
+        window.addEventListener('click', function (event) {
+            if (event.target == document.getElementById('popup')) {
+                document.getElementById('popup').style.display = 'none';
             }
-        }
+        });
 
     </script>
 </body>
