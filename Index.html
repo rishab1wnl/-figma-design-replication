@@ -29,20 +29,24 @@
                 <h2>Book Demo Session</h2>
                 <p>Only 4 Spots Left!</p>
             </div>
-            <form>
-                <input type="text" placeholder="Rahul Sharma" required>
-                <input type="email" placeholder="Email Id" required>
+            <form id="applicationForm">
+                <input type="text" id="name" placeholder="Full Name" required>
+                <input type="email" id="email" placeholder="Email Id" required>
                 <div class="phone-input">
-                    <select>
+                    <select id="countryCode">
                         <option value="+91">+91</option>
                     </select>
-                    <input type="tel" placeholder="Enter mobile number" required>
+                    <input type="tel" id="mobile" placeholder="Enter mobile number" required>
                 </div>
-                <select required>
+                <select id="babyStage" required>
                     <option value="">Select Baby Stage</option>
+                    <option value="newborn">Newborn</option>
+                    <option value="infant">Infant</option>
+                    <option value="toddler">Toddler</option>
                 </select>
                 <button type="submit">Apply Now</button>
             </form>
+
             <p class="terms">
                 UpTodd's <a href="#">Terms & Conditions</a> and <a href="#">Privacy Policy</a> for <br>complete data
                 security

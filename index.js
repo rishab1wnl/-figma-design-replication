@@ -26,3 +26,25 @@ if (event.target == document.getElementById('popup')) {
     document.getElementById('popup').style.display = 'none';
 }
 });
+
+
+document.getElementById('applicationForm').addEventListener('submit', function(event) {
+    event.preventDefault(); 
+
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const countryCode = document.getElementById('countryCode').value;
+    const mobile = document.getElementById('mobile').value;
+    const babyStage = document.getElementById('babyStage').value;
+
+    const formData = {
+        name: name,
+        email: email,
+        phone: `${countryCode} ${mobile}`,
+        babyStage: babyStage
+    };
+
+    localStorage.setItem('applicationData', JSON.stringify(formData));
+
+    alert('Application data saved successfully!');
+});
