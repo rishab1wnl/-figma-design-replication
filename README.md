@@ -1,6 +1,8 @@
 # Figma Design Replication 🎨✨
-
-![License](https://img.shields.io/badge/License-MIT-blue.svg) ![HTML5](https://img.shields.io/badge/HTML-5-orange.svg) ![CSS3](https://img.shields.io/badge/CSS-3-blue.svg) ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow.svg)
+![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 ## 🌟 Overview
 This project is a web-based application designed to replicate a Figma design. It includes a structured HTML page, styled with CSS, and interactivity managed through JavaScript. The web page features a navigation bar, a video display toggle, and a popup for booking demo sessions. Data is stored in the browser's local storage for persistence.
