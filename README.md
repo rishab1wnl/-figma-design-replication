@@ -12,6 +12,7 @@ This project is a web-based application designed to replicate a Figma design. It
 - **Video Display Toggle**: Allows users to switch between a video thumbnail and an embedded YouTube video.
 - **Demo Booking Popup**: Includes a popup form for users to book a demo session.
 - **Local Storage**: Data entered in the demo booking form is stored in the browser's local storage for persistence across sessions.
+- **Responsive Design**: Ensures that the website looks great on all devices, including desktops, tablets, and mobile phones.
 
 ## 📸 Screenshots
 Below are screenshots of the project. Add your screenshots here for a visual representation of the application:
@@ -50,6 +51,7 @@ CSS file that defines styles for:
 - General page layout and reset styles for elements.
 - Navigation bar positioning and appearance.
 - Button and popup styling, ensuring a cohesive and visually appealing design.
+- **Media queries** to ensure the website is responsive and adjusts to different screen sizes.
 
 ## 🚀 Getting Started
 To run this project locally, follow these steps:
