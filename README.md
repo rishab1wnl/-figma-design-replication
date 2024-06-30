@@ -11,6 +11,19 @@ This project is a web-based application designed to replicate a Figma design. It
 - **Demo Booking Popup**: Includes a popup form for users to book a demo session.
 - **Local Storage**: Data entered in the demo booking form is stored in the browser's local storage for persistence across sessions.
 
+## 📸 Screenshots
+Below are screenshots of the project. Add your screenshots here for a visual representation of the application:
+
+1. **Home Page**
+![Screenshot 2024-06-28 221414](https://github.com/rishab1wnl/-figma-design-replication/assets/83393481/46be5467-c4dc-4ded-a6d6-755262871bd8)
+![Screenshot 2024-06-28 221405](https://github.com/rishab1wnl/-figma-design-replication/assets/83393481/8401cfd6-7901-402e-8e8f-4f53ac1aa2b0)
+
+2. **Video Display**
+![Screenshot 2024-06-28 221429](https://github.com/rishab1wnl/-figma-design-replication/assets/83393481/08c90a91-b043-4413-b576-77af27d282c7)
+
+3. **Demo Booking Popup**
+![Screenshot 2024-06-28 221435](https://github.com/rishab1wnl/-figma-design-replication/assets/83393481/50f65c04-223b-45b0-a137-36a75898b6a3)
+
 ## 🏗️ Project Structure
 - **`index.js`**: Contains JavaScript code to manage user interactions, such as toggling video display, handling popup functionality, and storing data in local storage.
 - **`Index.html`**: Provides the HTML structure of the webpage, including the navigation bar and popup form.
@@ -64,4 +77,3 @@ To run this project locally, follow these steps:
 
 
 > *This project was developed with ❤️ and ☕.*
-
